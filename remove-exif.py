@@ -38,7 +38,7 @@ if __name__ == "__main__":
         help()
         exit(1)
     image_file = sys.argv[1]
-    if check_file(image_file)
+    if check_file(image_file):
         scrub_image(sys.argv)
     else:
         print("[ERROR]\tInvalid File!")
